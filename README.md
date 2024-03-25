@@ -13,5 +13,7 @@ The warehouse is used for making related tools for semantic segmentation data of
 # 工具介绍
 
 image_split -- 影像裁剪
+
 tif2jpg/tif2png -- 将.tif格式影像转换为jpg或png格式
+
 label2grey -- 将png格式的label标签转换为网络训练所使用的灰度图片
