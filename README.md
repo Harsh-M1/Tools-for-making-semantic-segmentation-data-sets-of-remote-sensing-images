@@ -3,8 +3,11 @@ The warehouse is used for making related tools for semantic segmentation data of
 
 # 该仓库用于遥感影像语义分割数据制作相关工具
 包括：
+
 1-.tif格式遥感影像及label图片裁剪（滑动裁剪）
+
 2-.tif格式影像和标签转为.jpg和.png格式
+
 3-label（.png格式）由0-255转为灰度值0、1、2......
 
 # 工具介绍
