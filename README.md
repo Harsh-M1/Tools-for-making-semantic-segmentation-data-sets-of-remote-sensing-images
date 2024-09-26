@@ -12,8 +12,10 @@ The warehouse is used for making related tools for semantic segmentation data of
 
 # 工具介绍
 
-image_split -- 影像裁剪
+image_split.py -- 影像裁剪
 
-tif2jpg/tif2png -- 将.tif格式影像转换为jpg或png格式
+tif2jpg.py/tif2png.py -- 将.tif格式影像转换为jpg或png格式
 
-label2grey -- 将png格式的label标签转换为网络训练所使用的灰度图片
+label2grey.py -- 将png格式的label标签转换为网络训练所使用的灰度图片
+
+slide_split.py -- 将tif格式的遥感影像及对应的Lable影像进行滑动裁剪（增加了滑动的窗口大小、步长及无法整除滑动时，对影像和Label的右侧及下侧填充0值，使其可以整除滑动裁剪！）
